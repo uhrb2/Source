@@ -1,0 +1,127 @@
+{
+    "name": "سورس جوهره ميوزك",
+    "description": "سورس جوهره تخصص تشغيل اغاني في الكول مجموعات او قنوات مطور السورس محمد هلال",
+    "logo": "https://telegra.ph/file/1515d357035a1ca8b72d6.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Yukki",
+    "YukkiMusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "stack": "container",
+    "env": {
+      "API_ID": {
+        "description": "الاب ايدي بتستخرجو من هنا https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "الاب هاش بنستخرجو من هناhttps://my.telegram.org",
+        "value": "",
+        "required": true
+      },  
+      "BOT_TOKEN": {
+        "description": "توكن بوتك بتجيبو من هنا @Botfather",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ايدي المالك او المطور تقدر تحط اتنين بس الاول المتحكم واللي بيظهر",
+        "value": "1121532100",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "جلسه البايروجرام",
+        "value": "",
+        "required": true
+      },
+      "LOG_GROUP_ID": {
+        "description": "ايدي المجموعه اللي هيكون فيها البوت والمساعد ادمن لازم ",
+        "value": "-1001690504312",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": " ده اسم البوت سميه زي منتا غايز بس ميكنش مزغرف",
+        "value": "gohara",
+        "required": true
+      },
+      "CHANNEL": {
+        "description": "رابط قناتك بدون @ مثل M_O_D_Y_CH",
+        "value": "M_O_D_Y_CH",
+        "required": false
+      },
+      "CHANNEL_SUDO": {
+        "description": "رابط قناتك مثل https://t.me/M_O_D_Y_CH",
+        "value": "https://t.me/M_O_D_Y_CH",
+        "required": false
+      },
+      "SUPPORT_GROUP": {
+        "description": "رابط جروبك مثل https://t.me/Eldofhatt",
+        "value": "https://t.me/Eldofhatt",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "رابط قناتك مثل https://t.me/M_O_D_Y_CH",
+        "value": "https://t.me/M_O_D_Y_CH",
+        "required": false
+      },
+      "GITHUB_REPO": {
+        "description": "رابط التنصيب مثل https://t.me/MohamedHelal_l",
+        "value": "https://t.me/MohamedHelal_l",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "عايز تحطو حطو مش بتعرف سيبو فاضي",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "بردو عايز تحطو لو فاهم حطو مش عايز سيبو فاضي",
+        "value": "",
+        "required": false
+      },
+      "MONGO_DB_URI": {
+        "description": "ده المونج ممكن تسيبو زي مهوه لو معندكش",
+        "value": "mongodb+srv://dragon:t.me.yy8gg@dragon.7v7baed.mongodb.net/mohamed?retryWrites=true&w=majority",
+        "required": true
+      },
+      "UPSTREAM_REPO": {
+        "description": "لو مش فاهم دي اي سبها زي مهيه",
+        "value": "https://github.com/goharaM/gohara",
+        "required": true
+      },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "لو انتا عايز البوت يغادر اول مالاغنيه تخلص متلعيش فيها",
+        "value": "True",
+        "required": false
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "متلعبش فيها",
+        "value": "main",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+          "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      }
+  }
