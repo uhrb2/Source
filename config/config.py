@@ -10,11 +10,11 @@ from pyrogram import filters
 load_dotenv()
 
 # الايبيهات الهاش والايدي بنجبهم من هنا my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH","")
+API_ID = int(getenv("21112010", ""))
+API_HASH = getenv("ddfa5a300af8ea44f66ce0f9eb71fc8e","")
 
 ## توكن البوت بنجيبو من هنا @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","")
+BOT_TOKEN = getenv("7974715514:AAGf5yqi1-27jIOJ9pnV9b_5ptCjXYb_uDY","")
 
 # المونج لو ممعكش سيبو زي مهوه
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://dragon:t.me.yy8gg@dragon.7v7baed.mongodb.net/mohamed?retryWrites=true&w=majority")
