@@ -37,7 +37,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","gohara")
 
 # ايديهات المطورين الملاك
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1121532100").split())
+    map(int, getenv("OWNER_ID", "7182427468").split())
 ) 
 
 # سيبو زي مهوه ملهوش لزمه
@@ -59,16 +59,16 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # قناه الاشتراك الاجباري بدون @
 CHANNEL = getenv(
-    "CHANNEL", "M_O_D_Y_CH"
-)  # قناه الاشتراك الاجباري مثل هيك https://t.me/M_O_D_Y_CH
+    "CHANNEL", "RobinSource"
+)  # قناه الاشتراك الاجباري مثل هيك https://t.me/RobinSource
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/M_O_D_Y_CH"
+    "CHANNEL_SUDO", "https://t.me/RobinSource"
 )  # قناة السورس هيك https://t.me/M_O_D_Y_CH
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/M_O_D_Y_CH"
+    "SUPPORT_CHANNEL", "https://t.me/is7rb"
 )  #جروب السورس https://t.me/BarGohara
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/BarGohara"
+    "SUPPORT_GROUP", "https://t.me/is7rb"
 ) 
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # جلسه البايروجران تقدر تجبها من هنا@helal_trmix_BOT
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("1ApWapzMAUCUaz0hiyy6PRwE4JdQc1icu8bVmombrrYvKwNOZCRmnyWMqj5EWFHsk9NwpOjecsHfyoBRg5Ub8cVvkqL7_934z7uv-TlmpDREkKhobe6chJfUU2qtYbJjKY-lfcgUsnB657SPyab7Na-H6NSFvfE4_c7M4yfP0S3V0DEsKadFF9K0LxER0xc37SJY_MtDWbdyHscTb_w47JHiI0LIWDIxtX-jn9c32N6IiHUnzFKTXx-aMRRstkCOYW-9rNOQEi-emxkU8MedjbBIbOOCLYVhWGnJR6ZZ68kEjz_L2dzvkrEFQhkwUIdD_jy6LQmk5yx_Ofn07Ci7DlTSDDEF8d5M=", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
