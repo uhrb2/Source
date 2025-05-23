@@ -10,7 +10,7 @@ from pyrogram import filters
 load_dotenv()
 
 # الايبيهات الهاش والايدي بنجبهم من هنا my.telegram.org
-API_ID = int(getenv("21112010", ""))
+API_ID = int(getenv("API_ID", "21112010"))
 API_HASH = getenv("ddfa5a300af8ea44f66ce0f9eb71fc8e","")
 
 ## توكن البوت بنجيبو من هنا @Botfather in Telegram.
